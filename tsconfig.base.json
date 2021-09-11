@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@pact-contract-testing/api-services": ["libs/api-services/src/index.ts"]
+      "@pact-contract-testing/api-services": ["libs/api-services/src/index.ts"],
+      "@pact-contract-testing/shared-types": ["libs/shared-types/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
