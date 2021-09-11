@@ -1,8 +1,4 @@
-export type Data = {
-  id: number;
-  date: Date;
-  value: string;
-};
+import { Data } from '@pact-contract-testing/shared-types';
 
 export const data: Data[] = [
   {

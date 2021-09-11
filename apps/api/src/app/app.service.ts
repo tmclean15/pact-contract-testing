@@ -1,5 +1,6 @@
 import { Injectable } from '@nestjs/common';
-import { Data, data } from './data-store';
+import { data } from './data-store';
+import { Data } from '@pact-contract-testing/shared-types';
 
 @Injectable()
 export class AppService {
