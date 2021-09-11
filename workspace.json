@@ -1,6 +1,7 @@
 {
   "version": 2,
   "projects": {
+    "api": "apps/api",
     "web-client": {
       "root": "apps/web-client",
       "sourceRoot": "apps/web-client/src",
@@ -52,7 +53,8 @@
           "executor": "@nrwl/web:dev-server",
           "options": {
             "buildTarget": "web-client:build",
-            "hmr": true
+            "hmr": true,
+            "proxyConfig": "apps/web-client/proxy.conf.json"
           },
           "configurations": {
             "production": {
