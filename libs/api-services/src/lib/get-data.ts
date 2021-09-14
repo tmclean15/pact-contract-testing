@@ -10,5 +10,5 @@ export function getData({ baseURL }: ApiServiceParams): Promise<Data[]> {
     url: "/data",
   };
 
-  return axios.request(config);
+  return axios.request(config).then((res) => res.data);
 }

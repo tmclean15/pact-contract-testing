@@ -1,3 +1,11 @@
 {
-  "babelrcRoots": ["*"]
+  "babelrcRoots": ["*"],
+  "presets": [
+    [
+      "@babel/preset-typescript",
+      {
+        "allowNamespaces": true
+      }
+    ]
+  ]
 }
