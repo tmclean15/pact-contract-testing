@@ -17,13 +17,16 @@ export function App() {
     <div
       style={{
         display: "flex",
+        flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
       }}
     >
       <button onClick={handleGetData}>Get Data</button>
 
-      <div>{JSON.stringify(data, null, 2)}</div>
+      <pre style={{ margin: "2rem", width: "50%" }}>
+        {JSON.stringify(data, null, 2)}
+      </pre>
     </div>
   );
 }
